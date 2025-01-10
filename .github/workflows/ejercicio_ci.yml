@@ -4,6 +4,7 @@ on:
   push:
     branches: [config/ci]
 
+
 jobs:
   pytest:
     runs-on: ubuntu-latest
